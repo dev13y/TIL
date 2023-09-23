@@ -1,0 +1,41 @@
+# slideEffect
+
+## `JavaScript<slideEffect>`
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sliding 효과</title>   
+		<style type="text/css">	
+			*{ text-align:center;}		
+			#menuBox {width:100px; margin:0 auto; margin-bottom:30px;}	
+			#menuBox:hover { 
+					background-color:orange;
+					color:blue;
+					font-weight:bold;
+				}				
+			#subMenuBox {display:none; } 
+		</style>
+		<script src= "jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				 
+			});
+		</script>
+	</head>
+	<body>
+    	<div>
+            <div><h3>Sliding 효과</h3></div>
+            <div id="menuBox">메뉴</div>         
+            <div id="subMenuBox">
+                <img src="image/#.png">
+            </div> 
+            <button>버튼의 위치는?</button>             
+        </div>
+	</body>
+</html>
+```
+
+
