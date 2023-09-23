@@ -1,0 +1,31 @@
+# for문
+
+## `JavaScript<for문>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for 문</title>
+    <script>
+        // let i;
+        let sum = 0; // 0으로 초기화 하지 않으면 NaN 출력
+        for(i=1; i<=10; i++) {
+        // for(i=1; i<=10; i+=2) { // 2씩 증가
+            document.write("i = " + i + "<br>");
+            // sum = sum + i;
+            sum += i;  // 누적 대입 연산자 사용
+        }
+
+        document.write("최종 i 값 : " + i + "<br>");
+        document.write("sum : " + sum);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+

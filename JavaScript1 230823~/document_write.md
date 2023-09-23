@@ -1,0 +1,27 @@
+# write
+
+## `JavaScript<write>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 출력</title>
+    <script>
+        // head 부분 먼저 출력됨
+        document.write("hello");
+        document.write("<h3>제목</h3>"); // 태그 효과 적용됨
+
+        console.log("hello2");
+        console.log("<h3>제목2</h3>") // 태그 효과 적용 안 됨. <h3>를 문자열로 인식
+        // <h3>제목2</h3> 그대로 출력
+    </script>
+</head>
+<body>
+    <h1>body 본문에서 출력</h1>
+</body>
+</html>
+```
+
+
