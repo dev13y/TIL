@@ -1,0 +1,32 @@
+# varFont
+
+## `CSS<varFont>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가변 폰트</title>
+    <style>
+        .vw { font-size: 5vw;}
+        .vh { font-size: 5vh;}
+        .vmin { font-size: 5vmin;}
+        .vmax { font-size: 5vmax;}
+    </style>
+</head>
+<body>
+    <p>기본 단위</p>
+    <p class="vw">vw 단위</p>
+    <p class="vh">vh 단위</p>
+    <p class="vmin">vmin 단위</p>
+    <p class="vmax">vmax 단위</p>
+</body>
+</html>
+```
+
+## `varFont<출력>`
+![image](https://github.com/dev13y/TIL/assets/145516942/6913cf3a-c7b2-47fe-a434-8dc88bf7f9b5)
+
+
+
