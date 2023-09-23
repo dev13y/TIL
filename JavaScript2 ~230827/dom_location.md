@@ -1,0 +1,47 @@
+# dom_location
+
+## `JavaScript<dom_location>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom_location</title>
+    <script>
+        // id로 DOM 요소 찾아오기 : getElementById()
+
+        //(1) 잘못된 위치 
+        // 아직 body의 요소가 생성되기 전 
+        // let box = document.getElementById('box');
+        // box.innerHTML = "변경";
+        
+        // (3) 올바른 위치 
+        // (3) 윈도우 로드 완료 후 자바스크립트 실행
+        window.onload = function(){
+            let box = document.getElementById('box');
+            box.innerHTML = "변경";
+        };
+
+        // 화살표 함수 사용 가능
+        // window.onload = () => {
+        //     let box = document.getElementById('box');
+        //     box.innerHTML = "변경";
+        // };
+
+    </script>
+</head>
+<body>
+    <div id="box">box</div>
+    <!-- <script>
+        // id로 DOM 요소 찾아오기 : getElementById()
+
+        //(2) HTML 요소 생성 후 DOM 객체 사용
+        let box = document.getElementById('box');
+        box.innerHTML = "변경";
+    </script> -->
+</body>
+</html>
+```
+
+
