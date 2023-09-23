@@ -31,7 +31,7 @@
 ```
 
 ## `descSelector<출력>`
-![image](https://github.com/dev13y/TIL/assets/145516942/3490ae0d-ed69-4d98-838f-5c3a9b6535bd)
+![image](https://github.com/dev13y/TIL/assets/145516942/21739bd2-47ee-48ac-bcd0-6d8850c2d77c)
 
 
 
