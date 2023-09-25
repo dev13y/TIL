@@ -16,7 +16,7 @@ class Employee:
         print('부서: ', self.__dpt)
 ```
 
-### Employee.py
+### Manager.py
 ```py
 from Employee import *
 
